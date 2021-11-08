@@ -1,0 +1,44 @@
+.pads {
+   &__title {
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+   }
+
+   &__describe {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+   }
+
+   &__describe2 {
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .row{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .wrapper{
+      position: relative;
+  }
+
+
+}
+
+.img-text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

@@ -1,0 +1,41 @@
+.home{
+     background: url(../images/home/fon1sec.png)center / cover no-repeat;
+     height: 100vh;
+     padding-top: 189px;
+     padding-bottom: 270px;
+
+    &__title{
+        font-weight: normal;
+        font-size: 43px;
+        line-height: 46px;
+        text-align: center;
+        color: #fff;  
+        margin-bottom: 12px;      
+    }
+      
+    &__subtitle{
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #fff;
+        margin-bottom: 28px;
+    }
+
+    &__btn{
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__btns{
+        color: #fff;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        display: flex;
+    }
+}
