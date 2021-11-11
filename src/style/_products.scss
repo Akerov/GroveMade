@@ -1,0 +1,26 @@
+.products{
+    
+    &__title{
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+    
+    &__describe{
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+        margin-bottom: 52px;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
