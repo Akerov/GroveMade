@@ -167,6 +167,9 @@ body {
 }
 
 .pads .img-text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -191,5 +194,54 @@ body {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.products {
+  background-color: black;
+}
+
+.products__title {
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.products__subtitle {
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  margin-bottom: 52px;
+}
+
+.products .img-text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -10%;
+  right: 38%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
