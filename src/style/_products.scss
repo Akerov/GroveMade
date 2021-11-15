@@ -1,6 +1,4 @@
 .products{
-
-    background-color: black;
     
     &__title{
         font-weight: normal;
@@ -20,20 +18,29 @@
         margin-bottom: 52px;
     }
 
-    .img-text{
-        align-items: center;
-        justify-content: center;
-        display:flex;
-        position: absolute;
-        bottom: -10%;
-        right: 38%;
+    .img{
+        justify-content: start;
+        margin-bottom: 24px;
     }
 
-   
-}
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 23px;
+        column-gap:25px;
+        margin-bottom: 95px;
+    }
 
-.row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .img-text{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        letter-spacing: 0.7px;
+        color: #A0A0A0;
+        bottom: -10%;
+        right: 38%;
+        justify-content:space-around;
+        align-items:flex-end;
+    }
 }
