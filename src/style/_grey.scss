@@ -1,0 +1,27 @@
+.grey{
+    background:url(../images/grey/grey.png)center / cover;
+    height: 60vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 39px;
+    display: flex;
+    align-items: center;
+
+    &__title{
+        font-weight: normal;
+        font-size: 43px;
+        line-height: 58px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 23px;
+    }
+
+    &__subtitle{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+    }
+}
