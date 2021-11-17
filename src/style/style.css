@@ -368,16 +368,8 @@ body {
 
 .grey {
   background: url(../images/grey/grey.png) center/cover;
-  height: 60vh;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 150px 0 121px;
   margin-bottom: 39px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .grey__title {
@@ -396,5 +388,50 @@ body {
   text-align: center;
   letter-spacing: 0.8px;
   color: #FFFFFF;
+}
+
+.grey__emblem {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__item {
+  margin-bottom: 16px;
+  margin-left: 50px;
+  list-style: none;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.footer__title {
+  font-size: 22px;
+  line-height: 24px;
+  list-style: none;
+  margin-bottom: 23px;
+  margin-left: 35px;
+}
+
+.footer__subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  list-style: none;
+  margin-left: 35px;
+}
+
+.footer__line {
+  top: 172px;
+  left: -347px;
+  position: relative;
+  width: 320px;
+  height: 1px;
+  background-color: #000;
 }
 /*# sourceMappingURL=style.css.map */

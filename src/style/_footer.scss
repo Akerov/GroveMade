@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+
+    &__item {
+        margin-bottom: 16px;
+        margin-left: 50px;
+        list-style: none;
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    &__title{
+        font-size: 22px;
+        line-height: 24px;
+        list-style: none;
+        margin-bottom: 23px;
+        margin-left: 35px;
+    }
+
+    &__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+        list-style: none;
+        margin-left: 35px;
+    }
+
+    &__line{
+        top: 172px;
+        left: -347px;;
+        position: relative;
+        
+        width: 320px;
+        height: 1px;
+        background-color: #000;
+    }
+}

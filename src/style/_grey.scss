@@ -1,13 +1,9 @@
-.grey{
-    background:url(../images/grey/grey.png)center / cover;
-    height: 60vh;
-    margin-left: 50px;
-    margin-right: 50px;
+.grey {
+    background: url(../images/grey/grey.png)center / cover;
+    padding: 150px 0 121px;
     margin-bottom: 39px;
-    display: flex;
-    align-items: center;
 
-    &__title{
+    &__title {
         font-weight: normal;
         font-size: 43px;
         line-height: 58px;
@@ -16,12 +12,17 @@
         margin-bottom: 23px;
     }
 
-    &__subtitle{
+    &__subtitle {
         font-weight: normal;
         font-size: 14px;
         line-height: 24px;
         text-align: center;
         letter-spacing: 0.8px;
         color: #FFFFFF;
+    }
+
+    &__emblem {
+        margin-bottom: 24px;
+        text-align: center;
     }
 }
