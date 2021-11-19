@@ -399,6 +399,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .footer__item {
@@ -407,6 +408,7 @@ body {
   list-style: none;
   font-size: 22px;
   line-height: 24px;
+  position: relative;
 }
 
 .footer__title {
@@ -415,6 +417,7 @@ body {
   list-style: none;
   margin-bottom: 23px;
   margin-left: 35px;
+  position: relative;
 }
 
 .footer__subtitle {
@@ -424,14 +427,26 @@ body {
   color: #A0A0A0;
   list-style: none;
   margin-left: 35px;
+  position: relative;
 }
 
 .footer__line {
   top: 172px;
   left: -347px;
-  position: relative;
   width: 320px;
   height: 1px;
   background-color: #000;
+  position: relative;
+}
+
+.footer__bt {
+  color: white;
+  list-style: none;
+  width: 82px;
+  height: 82px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */

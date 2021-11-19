@@ -1,5 +1,6 @@
 .footer {
     display: flex;
+    position: relative;
 
     &__item {
         margin-bottom: 16px;
@@ -7,6 +8,7 @@
         list-style: none;
         font-size: 22px;
         line-height: 24px;
+        position: relative;
     }
 
     &__title{
@@ -15,6 +17,7 @@
         list-style: none;
         margin-bottom: 23px;
         margin-left: 35px;
+        position: relative;
     }
 
     &__subtitle{
@@ -24,15 +27,26 @@
         color: #A0A0A0;
         list-style: none;
         margin-left: 35px;
+        position: relative;
     }
 
     &__line{
         top: 172px;
         left: -347px;;
-        position: relative;
-        
         width: 320px;
         height: 1px;
         background-color: #000;
+        position: relative;
+    }
+
+    &__bt{
+        color: white;
+        list-style: none;
+        width: 82px;
+        height: 82px;
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }
