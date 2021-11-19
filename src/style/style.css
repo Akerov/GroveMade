@@ -340,6 +340,15 @@ body {
   margin-bottom: 29px;
 }
 
+.work__images {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .work__kek {
   margin-right: 8px;
   margin-left: 8px;
@@ -448,5 +457,14 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
