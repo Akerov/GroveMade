@@ -104,6 +104,11 @@ body {
   display: flex;
 }
 
+.home__bt {
+  color: #fff;
+  text-decoration: none;
+}
+
 .pads {
   padding-top: 80px;
   margin-bottom: 130px;
@@ -135,6 +140,8 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 81px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .pads .row {
@@ -195,6 +202,11 @@ body {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.pads__bt {
+  text-decoration: none;
+  color: #000;
 }
 
 .products__title {
@@ -288,6 +300,14 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 530px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.office__bt {
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 
 .make__title {

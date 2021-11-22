@@ -33,5 +33,13 @@
         text-transform: uppercase;
         color: #FFFFFF;
         margin-bottom: 530px;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    &__bt{
+        text-decoration: none;
+        list-style: none;
+        color: white;
     }
 }

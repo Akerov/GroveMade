@@ -30,6 +30,8 @@
     text-transform: uppercase;
     color: #000000;
     margin-bottom: 81px;
+    text-decoration: none;
+    list-style: none;
   }
 
   .row{
@@ -78,6 +80,10 @@
         text-transform: uppercase;
         color: #000000;
     }
+  }
+  &__bt {
+      text-decoration: none;
+      color: #000;
   }
 }
 
