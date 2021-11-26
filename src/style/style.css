@@ -4,10 +4,15 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Roboto';
+}
+
+img {
+  width: 100%;
 }
 
 .container {
@@ -103,6 +108,11 @@ body {
   display: flex;
 }
 
+.home__bt {
+  color: #fff;
+  text-decoration: none;
+}
+
 .pads {
   padding-top: 80px;
   margin-bottom: 130px;
@@ -134,6 +144,8 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 81px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .pads .row {
@@ -176,9 +188,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  bottom: -10%;
-  right: 38%;
+  margin-top: 48px;
 }
 
 .pads .img-text h3 {
@@ -194,6 +204,11 @@ body {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.pads__bt {
+  text-decoration: none;
+  color: #000;
 }
 
 .products__title {
@@ -287,6 +302,14 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 530px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.office__bt {
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 
 .make__title {
@@ -338,6 +361,15 @@ body {
   letter-spacing: 0.8px;
   color: #A0A0A0;
   margin-bottom: 29px;
+}
+
+.work__images {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .work__kek {
@@ -440,13 +472,50 @@ body {
 }
 
 .footer__bt {
-  color: white;
-  list-style: none;
   width: 82px;
   height: 82px;
   background-color: #000;
   position: absolute;
   top: 0;
   right: 0;
+  list-style: none;
+}
+
+.footer__go-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .pads .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pads .row img {
+    width: 100%;
+  }
+  .products .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .office__title {
+    font-size: 46px;
+    margin-bottom: 12px;
+  }
+  .work__images {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=style.css.map */

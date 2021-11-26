@@ -4,10 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: 'Roboto';
+}
+
+img{
+    width: 100%;
 }
 
 .container{
@@ -26,3 +31,4 @@ body{
 @import './end';
 @import './grey';
 @import './footer';
+@import './media';

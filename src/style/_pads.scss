@@ -30,6 +30,8 @@
     text-transform: uppercase;
     color: #000000;
     margin-bottom: 81px;
+    text-decoration: none;
+    list-style: none;
   }
 
   .row{
@@ -60,9 +62,7 @@
     align-items: center;
     justify-content: center;
     display:flex;
-    position: absolute;
-    bottom: -10%;
-    right: 38%;
+    margin-top: 48px;
     
     h3{
         font-weight: normal;
@@ -78,6 +78,10 @@
         text-transform: uppercase;
         color: #000000;
     }
+  }
+  &__bt {
+      text-decoration: none;
+      color: #000;
   }
 }
 
