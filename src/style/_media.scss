@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+  .pads {
+    .row {
+      flex-wrap: wrap;
+
+    }
+  }
+  .products {
+    .row {
+      flex-wrap: wrap;
+    }
+  }
+  .office {
+    &__title {
+      font-size: 46px;
+    }
+  }
+  .work {
+    &__images {
+      flex-wrap: wrap;
+    }
+  }
+}
