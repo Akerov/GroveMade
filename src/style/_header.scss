@@ -1,32 +1,88 @@
-.header{
-    padding: 29px 30.15px; 
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 29px 30.15px;
     background-color: #fff;
 
-    .navbar{
+    .burger {
+        display: none;
+        width: 26px;
+        height: 26px;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        z-index: 99;
+
+        &.active {
+            .burger-line {
+                background: transparent;
+                &::before {
+                    transform: rotate(45deg);
+                    top: 0;
+                }
+                &::after{
+                    transform: rotate(135deg);
+                    top: 0;
+                }
+            }
+        }
+
+        &-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: red;
+
+            &::before {
+                content: '';
+                width: 100%;
+                height: 2px;
+                position: absolute;
+                top: -8px;
+                left: 0;
+                background: red;
+                transition: all 0.4s;
+            }
+
+            &::after {
+                content: '';
+                width: 100%;
+                height: 2px;
+                position: absolute;
+                top: 8px;
+                left: 0;
+                background: red;
+                transition: all 0.4s;
+            }
+        }
+    }
+
+    .navbar {
         align-items: center;
         text-align: center;
         display: flex;
         justify-content: space-between;
 
-        &__logo{}
+        &__logo {}
 
-        &__nav{
-           display: flex;
-           column-gap: 30px;
+        &__nav {
+            display: flex;
+            column-gap: 30px;
         }
 
-        .nav__item{
-            list-style:none ;
+        .nav__item {
+            list-style: none;
         }
-        
-        .nav__link{
+
+        .nav__link {
             text-decoration: none;
             font-size: 13px;
             line-height: 15px;
             letter-spacing: 1.4px;
             text-transform: uppercase;
-            color:black;
+            color: black;
         }
     }
 }
-

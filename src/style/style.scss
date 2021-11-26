@@ -7,18 +7,22 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Roboto';
 }
 
-img{
+img {
     width: 100%;
 }
 
-.container{
+.container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+}
+
+.adidas {
+    width: 40px;
 }
 
 @import './header';
