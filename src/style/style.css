@@ -11,6 +11,10 @@ body {
   font-family: 'Roboto';
 }
 
+img {
+  width: 100%;
+}
+
 .container {
   max-width: 1440px;
   width: 100%;
@@ -184,9 +188,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  bottom: -10%;
-  right: 38%;
+  margin-top: 48px;
 }
 
 .pads .img-text h3 {
@@ -493,5 +495,27 @@ body {
   height: 100%;
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .pads .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pads .row img {
+    width: 100%;
+  }
+  .products .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .office__title {
+    font-size: 46px;
+    margin-bottom: 12px;
+  }
+  .work__images {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=style.css.map */
